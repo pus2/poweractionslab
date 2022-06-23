@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7ad3720a-3b49-45ce-ada2-7a3f4311d43d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="general" verticallayout="true" id="{049bf8fe-e8e3-4b46-9c5f-a517aa828fde}" IsUserDefined="0">
+          <labels>
+            <label description="" languagecode="1053" />
+          </labels>
+          <columns>
+            <column width="25%">
+              <sections>
+                <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{43d35460-88f6-4982-9127-e6c603dc1729}">
+                  <labels>
+                    <label description="ColorStrip" languagecode="1053" />
+                  </labels>
+                </section>
+              </sections>
+            </column>
+            <column width="75%">
+              <sections>
+                <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{9690f2c8-ad2b-467c-bbfd-e7383de4e28b}" IsUserDefined="0">
+                  <labels>
+                    <label description="Sidhuvud" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{08613414-4054-4d89-a851-c11d290ca377}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Statusorsak" languagecode="1053" />
+                        </labels>
+                        <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                      <cell id="{63fce2fb-8b1f-45df-b794-e9604668137c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1053" />
+                        </labels>
+                      </cell>
+                      <cell id="{eefb3503-45cc-415b-a2b3-2b6b243f9f5b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1053" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{77ebeec0-6694-4664-95a5-2322eb9f451d}" IsUserDefined="0">
+                  <labels>
+                    <label description="Detaljer" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5c7c1af8-7e7d-4029-a6f8-7a2d11106c58}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1053" />
+                        </labels>
+                        <control id="palab_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="palab_name" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CardFooter" showlabel="false" columns="1111" showbar="false" id="{75eceb16-1d51-4af5-b651-95b5d77c27ce}" IsUserDefined="0">
+                  <labels>
+                    <label description="Sidfot" languagecode="1053" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{147fcf68-c89b-4b50-ac7d-b26e5320587a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ägare" languagecode="1053" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                      <cell id="{a2b4ca97-3ad6-4b72-897e-e7a9a2623c16}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Skapad den" languagecode="1053" />
+                        </labels>
+                        <control id="createdon" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                      <cell id="{b5f85742-cdbf-4248-b003-1d28bece89b9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1053" />
+                        </labels>
+                      </cell>
+                      <cell id="{ac707502-ff6f-4757-9bd8-decf3ef49867}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1053" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1053" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Ett kortformulär för den här entiteten." languagecode="1053" />
+    </Descriptions>
+  </systemform>
+</forms>
